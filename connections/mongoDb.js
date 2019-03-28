@@ -7,7 +7,7 @@ var mongoConfig = require('../config/config').mongoDb;
 var dbURI = 'mongodb://' + mongoConfig.host + ':' + mongoConfig.port + '/' + mongoConfig.db;
 
 // Create the database connection 
-mongoose.connect(dbURI, { useMongoClient: true }); 
+mongoose.connect(dbURI, { useNewUrlParser: true}); 
 
 // CONNECTION EVENTS
 // When successfully connected
