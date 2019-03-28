@@ -1,0 +1,49 @@
+{
+  "name": "understated-auth",
+  "version": "1.0.0",
+  "description": "Mostly stateless JWT authentication with token revocations handled in Redis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewswiredin/understated-auth.git"
+  },
+  "keywords": [
+    "JWT",
+    "token",
+    "auth",
+    "authentication",
+    "refresh",
+    "revoke",
+    "revocation",
+    "redis",
+    "mongo",
+    "express"
+  ],
+  "author": "Andrew Holder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drewswiredin/understated-auth/issues"
+  },
+  "homepage": "https://github.com/drewswiredin/understated-auth#readme",
+  "devDependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-redis": "^2.0.0",
+    "guid": "0.0.12",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^5.0.0-rc1",
+    "morgan": "~1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "passport-local-mongoose": "^4.4.0",
+    "pug": "2.0.0-beta11",
+    "redis": "^2.8.0",
+    "serve-favicon": "~2.4.5",
+    "unix-timestamp": "^0.2.0"
+  }
+}
